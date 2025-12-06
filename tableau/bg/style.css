@@ -1,0 +1,26 @@
+html, body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    overflow: hidden; /* Hide potential scrollbars */
+  }
+
+.video-background {
+    position: relative; /* Or fixed, if desired */
+    overflow: hidden;
+    min-width: 100%; 
+    min-height: 100vh; 
+  }
+  
+  .video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;    /* Maintain aspect ratio */
+    height: auto;   /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the entire container */
+    
+  }
+  
