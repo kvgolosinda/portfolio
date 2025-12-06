@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Kenneth Golosinda</title>
+    <link rel = "icon" href = "./assets/img/logo2.PNG" type = "image/x-icon">
+
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="https://www.kvgolosinda.com" class="nav__logo">K</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="https://www.kvgolosinda.com/#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="https://www.kvgolosinda.com/#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="https://www.kvgolosinda.com/#experiences" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Experience
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="https://www.kvgolosinda.com/#portfolio" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="https://www.kvgolosinda.com/#skills" class="nav__link">
+                <i class="uil uil-brackets-curly nav__icon"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="https://www.kvgolosinda.com/#contact" class="nav__link">
+                <i class="uil uil-phone nav__icon"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+
+      
+<tableau-viz class="tableauPlaceholder" id="tableauPlaceholder"       
+  src='https://public.tableau.com/views/AverageSleepTimeofVariousAnimals/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'      
+  toolbar='bottom' hide-tabs>
+</tableau-viz>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#experience" class="footer__link">Experience</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <p class="footer__copy">&#169; Kenneth Von Golosinda</p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== SCROLL REVEEAL ====================-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
